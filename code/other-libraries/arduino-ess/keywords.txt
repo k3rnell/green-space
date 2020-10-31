@@ -1,0 +1,42 @@
+#######################################
+# Syntax Coloring Map For arduino-ess
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SensirionESS	KEYWORD1
+SensirionESSLeds KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initSensors	KEYWORD2
+measureRHT	KEYWORD2
+measureIAQ	KEYWORD2
+isInitialized	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+getProductType	KEYWORD2
+getFeatureSetVersion	KEYWORD2
+getTVOC	KEYWORD2
+getECO2	KEYWORD2
+getError	KEYWORD2
+setLedRYG	KEYWORD2
+remainingWaitTimeMS	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ARDUINO_UNO_LED_RED_PIN	LITERAL1
+ARDUINO_UNO_LED_YEL_PIN	LITERAL1
+ARDUINO_UNO_LED_GRN_PIN	LITERAL1
+
+PRODUCT_TYPE_SGP30	LITERAL1
+PRODUCT_TYPE_SGPC3	LITERAL1
